@@ -4,7 +4,7 @@ class MyClass:
     def __init__(self, value):
         self.instance_variable = value
 
-    @staticmethod
+    @staticmethod # dekorator onun ucundur ki, hem obyekt hem de class vasitesi ile de methodu cagirmag mumkun olsun dekorator olmazsa yalnizca class-dan cagirmaq mumkun olur
     def static_method():
         print("This is a static method")
 
