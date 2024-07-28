@@ -26,7 +26,7 @@ def calculate(arr, func):
     for i in arr:
         print(func(i))
 
-calculate(arr1, square)
+calculate(arr1, square) # tesevvur edirik ki, 27-ci setirde square(i) olur
 calculate(arr1, cube)
 
 print("*********************************************************************************")
