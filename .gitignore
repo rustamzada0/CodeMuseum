@@ -1,3 +1,7 @@
 # .gitignore
 
 myvenv
+env
+venv
+.env
+.venv
