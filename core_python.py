@@ -13,7 +13,7 @@
 
 
 # python her bir data type (str,int,float,bool,list,tuple,dict,set) öz-özlüyündə bir class həm də data type dir və həm də hamısı type class-ının obyektidir.
-# burdan bele neticeye gelirik ki, butun data type-ler type class-inin obyektidir ama object class-inin hem obyekti hem de subclass-dir
+# burdan bele neticeye gelirik ki, butun data type-ler "type" class-inin obyektidir ama "object" class-inin hem obyekti hem de subclass-dir
 print(isinstance(list, type)) # True
 print(issubclass(list, type))  # False (yeniki list classi type classinin subclass-i deyil instance-dir)
 
