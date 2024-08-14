@@ -8,7 +8,7 @@
 #     return x * y
 
 # def choose_process(func, x, y):
-#     return func(x, y)
+#     func(x, y)
 
 # print(choose_process(sum, 2, 3)) # sum() etmirik cunki sum() funksiyasini cagirir
 
